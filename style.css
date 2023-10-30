@@ -101,11 +101,13 @@
 
 .joine-container {
   display: flex;
-  box-sizing: content-box;
+  justify-content: space-between;
   background-color: rgb(27, 27, 27);
   color: white;
   padding-top: 100px;
   padding-left: 60px;
+  padding-right: 60px;
+  overflow: hidden;
 }
 
 .joine-container h1 {
@@ -152,8 +154,8 @@
 .joine-container-right img {
   padding-left: 90px;
   align-items: center;
-  height: 450px;
-  width: 600px;
+  max-width: 100%;
+  width: 100%;
 }
 
 .services-section {
