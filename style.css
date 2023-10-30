@@ -158,6 +158,11 @@
   width: 100%;
 }
 
+.joine-container-right .join-img-2 {
+  position: relative;
+  top: -180px;
+}
+
 .services-section {
   background-color: rgb(27, 27, 27);
 }
@@ -171,6 +176,7 @@
 }
 .services-container-left img {
   max-width: 100%;
+  width: 100%;
 }
 .services-section h1 {
   padding-top: 70px;
