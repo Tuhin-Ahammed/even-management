@@ -113,6 +113,7 @@
 .joine-container h1 {
   padding-top: 30px;
   font-size: 50px;
+  margin-bottom: 10px;
 }
 
 .joine-container h2 {
@@ -165,6 +166,10 @@
 
 .services-section {
   background-color: rgb(27, 27, 27);
+  padding-top: 0px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 60px;
 }
 
 .services-container {
@@ -172,15 +177,14 @@
   grid-template-columns: repeat(2, 1fr);
   padding: 30px;
   background-color: rgb(15, 12, 12);
-  margin: 60px;
+  margin-top: 100px;
 }
 .services-container-left img {
   max-width: 100%;
   width: 100%;
 }
 .services-section h1 {
-  padding-top: 70px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   font-size: 50px;
   text-align: center;
   color: aliceblue;
@@ -188,6 +192,10 @@
 }
 
 .services-container-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   color: aliceblue;
   padding-left: 60px;
 }
@@ -207,7 +215,7 @@
   font-size: 20px;
   margin-top: 30px;
   margin-bottom: 30px;
-  background-color: rgb(248, 29, 164);
+  background-color: rgb(241, 64, 173);
   color: aliceblue;
   padding-right: 10px;
   padding-left: 10px;
@@ -228,4 +236,161 @@
   border-radius: 5%;
   border: none;
   justify-content: end;
+}
+
+.choose-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url(/img/corporate-meeting.jpg);
+  background-size: cover;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+.choose-left {
+  margin-left: 50px;
+  margin-top: 100px;
+}
+.choose-icon-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.choose-icon-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+.choose-icon-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+.choose-icon-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+.choose-icon-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+  padding-top: 50px;
+}
+.choose-icon i {
+  font-size: 50px;
+  align-items: center;
+  padding: 20px;
+  border-radius: 100%;
+  border: 2px solid rgb(245, 12, 12);
+}
+.choose-right {
+  justify-content: center;
+  margin: 40px;
+}
+.choose-right h2 {
+  padding-bottom: 40px;
+}
+.choose-right h1 {
+  padding-bottom: 40px;
+  font-size: 50px;
+}
+.choose-right p {
+  font-size: 20px;
+}
+.choose-right button {
+  background: linear-gradient(to right, rgb(255, 99, 57), rgb(255, 34, 89));
+  color: aliceblue;
+  font-size: 20px;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 5%;
+  border: none;
+}
+.footer-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  justify-content: space-between;
+  background: #2e2d2d;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.footer-section,
+.footer-section a {
+  color: white;
+}
+.services-container-footer ul {
+  list-style: none;
+}
+.services-container-footer ul li {
+  padding-bottom: 10px;
+}
+.services-container-footer ul li a {
+  text-decoration: none;
+}
+.company-container-footer ul {
+  list-style: none;
+}
+.company-container-footer ul li {
+  padding-bottom: 10px;
+}
+.company-container-footer ul li a {
+  text-decoration: none;
+}
+.legal-container-footer ul {
+  list-style: none;
+}
+.legal-container-footer ul li {
+  padding-bottom: 10px;
+}
+.legal-container-footer ul li a {
+  text-decoration: none;
+}
+.news-container-footer ul {
+  list-style: none;
+}
+.footer-hedder {
+  padding-bottom: 20px;
+}
+.Subscribe-button {
+  padding-top: 10px;
+}
+.Subscribe-button input {
+  height: 40px;
+  width: 250px;
+  border-radius: 8px;
+  text-align: center;
+}
+.Subscribe-button button {
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  border-radius: 8px;
+  background-color: rgb(100, 47, 245);
+}
+.right-reserve {
+  background-color: #2e2d2d;
+  padding-left: 60px;
+  color: white;
+  text-align: start;
+  padding-bottom: 40px;
 }
