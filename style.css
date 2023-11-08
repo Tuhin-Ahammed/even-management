@@ -5,6 +5,7 @@
 }
 
 .heder-container {
+  height: 18vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,8 +27,8 @@
 .midel-side-heder li a {
   color: white;
   text-decoration: none;
-  padding: 40px;
-  font-size: 25px;
+  padding: 30px;
+  font-size: 20px;
 }
 
 .right-side-heder {
@@ -60,6 +61,7 @@
   border: none;
 }
 .register-container {
+  height: 90vh;
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.8),
@@ -70,15 +72,21 @@
   background-size: cover;
   color: white;
 }
-
+.Grident-word {
+  /* background: -webkit-linear-gradient(90deg, #f10dcb, #dfcccc); */
+  background: linear-gradient(to left, rgb(238, 69, 22), rgb(255, 34, 89));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .register-container h1 {
   padding-left: 20px;
-  padding-top: 70px;
+  padding-top: 10px;
 }
 
 .register-container h2 {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin: 20px;
   font-size: 100px;
   color: white;
@@ -213,7 +221,7 @@
 }
 
 .services-container-right button {
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: rgb(241, 64, 173);
@@ -233,12 +241,12 @@
 .see-details-button {
   background: linear-gradient(to right, rgb(255, 99, 57), rgb(255, 34, 89));
   color: aliceblue;
-  font-size: 30px;
+  font-size: 10px;
   border-radius: 5%;
   border: none;
   justify-content: end;
-  height: 70px;
-  width: 180px;
+  height: 50px;
+  width: 150px;
 }
 
 .choose-container {
@@ -256,7 +264,7 @@
   margin-top: 100px;
 }
 .choose-left h2 {
-  font-size: 30px;
+  font-size: 25px;
   padding-top: 30px;
 }
 .choose-icon-flex {
@@ -275,6 +283,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
   padding-top: 50px;
 }
 .choose-icon-3 {
@@ -308,7 +317,7 @@
 }
 .choose-right h1 {
   padding-bottom: 40px;
-  font-size: 80px;
+  font-size: 50px;
 }
 .choose-right p {
   font-size: 28px;
